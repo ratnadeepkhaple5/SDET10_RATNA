@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-15T14:50:07 IST" name="Suite" finished-at="2022-11-15T14:50:07 IST" duration-ms="59">
+  <suite started-at="2022-11-15T18:00:53 IST" name="Suite" finished-at="2022-11-15T18:02:05 IST" duration-ms="71967">
     <groups>
     </groups>
-    <test started-at="2022-11-15T14:50:07 IST" name="Test" finished-at="2022-11-15T14:50:07 IST" duration-ms="59">
-      <class name="mavenPac.CreateTest">
-        <test-method signature="createTest()[pri:0, instance:mavenPac.CreateTest@50ad3bc1]" started-at="2022-11-15T14:50:07 IST" name="createTest" finished-at="2022-11-15T14:50:07 IST" duration-ms="2" status="PASS">
+    <test started-at="2022-11-15T18:00:53 IST" name="Test" finished-at="2022-11-15T18:02:05 IST" duration-ms="71967">
+      <class name="practice.Amazon">
+        <test-method signature="main()[pri:0, instance:practice.Amazon@6bedbc4d]" started-at="2022-11-15T18:00:53 IST" name="main" finished-at="2022-11-15T18:02:05 IST" duration-ms="71926" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createTest -->
-      </class> <!-- mavenPac.CreateTest -->
-      <class name="mavenPac.DeleteTest">
-        <test-method signature="modifyTest()[pri:0, instance:mavenPac.DeleteTest@223aa2f7]" started-at="2022-11-15T14:50:07 IST" name="modifyTest" finished-at="2022-11-15T14:50:07 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- modifyTest -->
-      </class> <!-- mavenPac.DeleteTest -->
-      <class name="mavenPac.ModifyTest">
-        <test-method signature="modifyTest()[pri:0, instance:mavenPac.ModifyTest@6c130c45]" started-at="2022-11-15T14:50:07 IST" name="modifyTest" finished-at="2022-11-15T14:50:07 IST" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- modifyTest -->
-      </class> <!-- mavenPac.ModifyTest -->
+        </test-method> <!-- main -->
+      </class> <!-- practice.Amazon -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
