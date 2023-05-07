@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNgPractice.MakeMyTrip2">
+      <class name="extendReportsPractice.ER_driver">
         <methods>
-          <include name="myTrip" invocation-numbers="0"/>
+          <include name="launch"/>
+          <include name="modify"/>
+          <include name="close"/>
         </methods>
-      </class> <!-- testNgPractice.MakeMyTrip2 -->
+      </class> <!-- extendReportsPractice.ER_driver -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
